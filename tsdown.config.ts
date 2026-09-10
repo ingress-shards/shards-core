@@ -6,7 +6,6 @@ export default defineConfig({
     format: ["esm"],
     dts: true,
     clean: true,
-    bundle: false,
     copy: [
         { from: "conf/*.json", to: "dist/conf/" },
         { from: "gen/conf/*.json", to: "dist/conf/" },
